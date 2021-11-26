@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "regexManagers": [
     {
-      "fileMatch": ["Dockerfile"],
+      "fileMatch": ["test.txt"],
       "datasourceTemplate": "github-releases",
       "matchStrings": ["ghcr\\.io\\/(?<depName>.+):(?<currentValue>.+)"]
     }
